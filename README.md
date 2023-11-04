@@ -28,21 +28,22 @@
 - Membangun model prediksi untuk menentukan apakah pelanggan akan membeli asuransi perjalanan.
 - Prediksi apakah pelanggan akan membeli asuransi perjalanan dan identifikasi tipe-tipe pelanggan yang tertarik atau tidak.
 
-
-
-
-
 ## Data dan Asumsi
 - Dalam dataframe fitur yang tesedia adalah Age, Employment Type, GraduateOrNot, AnnualIncome, FamilyMembers, ChronicDiseases, FrequentFlyer, EverTravelledAbroad. Sementara targetnya adalah TravelInsurance
 - Fitur yang akan digunakan dalam modeling adalah Age, FrequentFlyer, Employment Type, EverTravelledAbroad, GraduateOrNot, TravelInsurance, AnnualIncome, AnnualCategory, ChronicDiseases, dan FamilyCategory
 
 ## Analisis Data
-- EDA untuk setiap fitur dan visualisasinya
-- Jelaskan proses memilih fitur dan performa
+- Persentase pelanggan yang tidak tertarik membeli travel insurance lebih besar yaitu sebesar 64%.
+- Pelanggan dengan umur 27-32tahun terlihat banyak yang tidak tertarik untuk membeli travel insurance. Sedangkan pelanggan umur <= 26 dan >=33 terlihat banyak yg tertarik membeli.
+- Pelanggan dengan tipe pekerjaan private sector/self employed lebih tertarik membeli travel insurance sebesar 80% dibanding government sector yang hanya tertarik 20% saja.
+- Terjadi kenaikan tajam pada pelanggan dengan pendapatan tahunan diatas 1.3M untuk tertarik untuk membeli asuransi perjalanan.
+- Pelanggan dengan lulusan perguruan tinggi ataupun bukan, tidak memiliki dampak pada ketertarikan pembelian travel insurance.
+- Keluarga dengan jumlah anggota 6 orang keatas lebih terlihat tertarik untuk membeli travel insurance, sedangkan yang berjumlah 2 orang terlihat hanya sedikit yang tertarik dan keluarga dengan anggota 3-5 orang agak banyak tertarik.
+-  Secara signifikan pelanggan yang melakukan perjalanan abroad lebih banyak tertarik untuk membeli travel insurance yaitu sebesar 42% dibanding yang tidak membeli. Sedangkan pelanggan yang tidak melakukan perjalanan abroad merasa tidak tertarik untuk membeli travel insurance.
+-  Pelanggan yang sering melakukan penerbangan lebih banyak tertarik untuk membeli travel insurance.
 
 ## Simpulan
 Model yang kami pilih adalah GradientBoostingClassifier dikarenakan model tersebut memiliki score presisi dan akurasi yang paling baik diantara model lainnya.  Berdaarkan fitur importance dari menggunakan model GradientBoostingClassifier didapatkan 4 fitur importance, yaitu AnnualIncome, Age, FamilyCategory, EverTravelledAboard. namun fitur yang paling mendominasi adalah Fitur AnnualIncome memiliki pengaruh yang sangat tinggi dengan proporsi mencapai ~85%. Hasil Feature Importance menunjukkan bahwa faktor paling besar yang berkontribusi terhadap seorang pelanggan membeli paket asuransi perjalanan adalah pendapatan tahunan. Semakin tinggi pendapatan seseorang, cenderung akan membeli paket asuransi paket perjalanan dan begitu pula sebaliknya
-
 
 ## Saran
 Action Items yang kami ajukan merespons temuan analisis feature importance ialah sebagai berikut :
