@@ -1,2 +1,2 @@
-# Travel_Insurance-Potential_Customer_Classification_using_Machine_learning
+# Classification_Potential_Customer_For_Travel_Insurance
 Classification Potential Customer For Travel Insurance
