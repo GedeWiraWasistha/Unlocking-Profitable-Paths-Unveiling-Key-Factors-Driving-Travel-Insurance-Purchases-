@@ -64,6 +64,7 @@ Keluarga dengan jumlah anggota 6 orang keatas lebih terlihat tertarik untuk memb
 Secara signifikan pelanggan yang melakukan perjalanan abroad lebih banyak tertarik untuk membeli travel insurance yaitu sebesar 42% dibanding yang tidak membeli. Sedangkan pelanggan yang tidak melakukan perjalanan abroad merasa tidak tertarik untuk membeli travel insurance.
 
 ![kategori sering berpergian](https://github.com/GedeWiraWasistha/Travel_Insurance-Potential_Customer_Classification_using_Machine_learning/assets/149849772/503ba59a-70bb-4d1e-bfd3-ab1c202557a4)
+
 Pelanggan yang sering melakukan penerbangan lebih banyak tertarik untuk membeli travel insurance.
 
 ## Simpulan
