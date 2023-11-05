@@ -33,6 +33,8 @@
 - Fitur yang akan digunakan dalam modeling adalah Age, FrequentFlyer, Employment Type, EverTravelledAbroad, GraduateOrNot, TravelInsurance, AnnualIncome, AnnualCategory, ChronicDiseases, dan FamilyCategory
 
 ## Analisis Data
+https://github.com/GedeWiraWasistha/Travel_Insurance-Potential_Customer_Classification_using_Machine_learning/issues/1#issue-1977792643
+
 - Persentase pelanggan yang tidak tertarik membeli travel insurance lebih besar yaitu sebesar 64%.
 - Pelanggan dengan umur 27-32tahun terlihat banyak yang tidak tertarik untuk membeli travel insurance. Sedangkan pelanggan umur <= 26 dan >=33 terlihat banyak yg tertarik membeli.
 - Pelanggan dengan tipe pekerjaan private sector/self employed lebih tertarik membeli travel insurance sebesar 80% dibanding government sector yang hanya tertarik 20% saja.
