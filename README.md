@@ -1,4 +1,4 @@
-# Classification_Potential_Customer_For_Travel_Insurance
+# Unlocking Profitable Paths: Unveiling Key Factors Driving Travel Insurance Purchases  
 - Analisis dan pemodelan yang dilakukan memiliki tujuan strategis untuk mengoptimalkan frekuensi pembelian dan secara bersamaan meningkatkan pendapatan dari penjualan polis asuransi perjalanan.
 - Data yang digunakan dalam analisis tersedia dalam berkas "TravelInsurancePrediction.csv", 
 - Proses Feature Extraction telah dilakukan untuk menghasilkan fitur-fitur baru yang signifikan, termasuk AnnualCategory, FamilyCategory, dan AgeCategory.
